@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		724382771F9F9D9F005F73AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724382761F9F9D9F005F73AA /* AppDelegate.swift */; };
+		724382791F9F9D9F005F73AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724382781F9F9D9F005F73AA /* ViewController.swift */; };
+		7243827C1F9F9D9F005F73AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7243827A1F9F9D9F005F73AA /* Main.storyboard */; };
+		7243827F1F9F9D9F005F73AA /* SmartWear.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7243827D1F9F9D9F005F73AA /* SmartWear.xcdatamodeld */; };
+		724382811F9F9D9F005F73AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 724382801F9F9D9F005F73AA /* Assets.xcassets */; };
+		724382841F9F9D9F005F73AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 724382821F9F9D9F005F73AA /* LaunchScreen.storyboard */; };
+		7243828F1F9F9D9F005F73AA /* SmartWearTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7243828E1F9F9D9F005F73AA /* SmartWearTests.swift */; };
+		7243829A1F9F9D9F005F73AA /* SmartWearUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724382991F9F9D9F005F73AA /* SmartWearUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7243828B1F9F9D9F005F73AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7243826B1F9F9D9F005F73AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 724382721F9F9D9F005F73AA;
+			remoteInfo = SmartWear;
+		};
+		724382961F9F9D9F005F73AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7243826B1F9F9D9F005F73AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 724382721F9F9D9F005F73AA;
+			remoteInfo = SmartWear;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		724382731F9F9D9F005F73AA /* SmartWear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartWear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		724382761F9F9D9F005F73AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		724382781F9F9D9F005F73AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7243827B1F9F9D9F005F73AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7243827E1F9F9D9F005F73AA /* SmartWear.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartWear.xcdatamodel; sourceTree = "<group>"; };
+		724382801F9F9D9F005F73AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		724382831F9F9D9F005F73AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		724382851F9F9D9F005F73AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7243828A1F9F9D9F005F73AA /* SmartWearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartWearTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7243828E1F9F9D9F005F73AA /* SmartWearTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartWearTests.swift; sourceTree = "<group>"; };
+		724382901F9F9D9F005F73AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		724382951F9F9D9F005F73AA /* SmartWearUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartWearUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		724382991F9F9D9F005F73AA /* SmartWearUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartWearUITests.swift; sourceTree = "<group>"; };
+		7243829B1F9F9D9F005F73AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		724382701F9F9D9F005F73AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724382871F9F9D9F005F73AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724382921F9F9D9F005F73AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7243826A1F9F9D9F005F73AA = {
+			isa = PBXGroup;
+			children = (
+				724382751F9F9D9F005F73AA /* SmartWear */,
+				7243828D1F9F9D9F005F73AA /* SmartWearTests */,
+				724382981F9F9D9F005F73AA /* SmartWearUITests */,
+				724382741F9F9D9F005F73AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		724382741F9F9D9F005F73AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				724382731F9F9D9F005F73AA /* SmartWear.app */,
+				7243828A1F9F9D9F005F73AA /* SmartWearTests.xctest */,
+				724382951F9F9D9F005F73AA /* SmartWearUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		724382751F9F9D9F005F73AA /* SmartWear */ = {
+			isa = PBXGroup;
+			children = (
+				724382761F9F9D9F005F73AA /* AppDelegate.swift */,
+				724382781F9F9D9F005F73AA /* ViewController.swift */,
+				7243827A1F9F9D9F005F73AA /* Main.storyboard */,
+				724382801F9F9D9F005F73AA /* Assets.xcassets */,
+				724382821F9F9D9F005F73AA /* LaunchScreen.storyboard */,
+				724382851F9F9D9F005F73AA /* Info.plist */,
+				7243827D1F9F9D9F005F73AA /* SmartWear.xcdatamodeld */,
+			);
+			path = SmartWear;
+			sourceTree = "<group>";
+		};
+		7243828D1F9F9D9F005F73AA /* SmartWearTests */ = {
+			isa = PBXGroup;
+			children = (
+				7243828E1F9F9D9F005F73AA /* SmartWearTests.swift */,
+				724382901F9F9D9F005F73AA /* Info.plist */,
+			);
+			path = SmartWearTests;
+			sourceTree = "<group>";
+		};
+		724382981F9F9D9F005F73AA /* SmartWearUITests */ = {
+			isa = PBXGroup;
+			children = (
+				724382991F9F9D9F005F73AA /* SmartWearUITests.swift */,
+				7243829B1F9F9D9F005F73AA /* Info.plist */,
+			);
+			path = SmartWearUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		724382721F9F9D9F005F73AA /* SmartWear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7243829E1F9F9D9F005F73AA /* Build configuration list for PBXNativeTarget "SmartWear" */;
+			buildPhases = (
+				7243826F1F9F9D9F005F73AA /* Sources */,
+				724382701F9F9D9F005F73AA /* Frameworks */,
+				724382711F9F9D9F005F73AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartWear;
+			productName = SmartWear;
+			productReference = 724382731F9F9D9F005F73AA /* SmartWear.app */;
+			productType = "com.apple.product-type.application";
+		};
+		724382891F9F9D9F005F73AA /* SmartWearTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 724382A11F9F9D9F005F73AA /* Build configuration list for PBXNativeTarget "SmartWearTests" */;
+			buildPhases = (
+				724382861F9F9D9F005F73AA /* Sources */,
+				724382871F9F9D9F005F73AA /* Frameworks */,
+				724382881F9F9D9F005F73AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7243828C1F9F9D9F005F73AA /* PBXTargetDependency */,
+			);
+			name = SmartWearTests;
+			productName = SmartWearTests;
+			productReference = 7243828A1F9F9D9F005F73AA /* SmartWearTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		724382941F9F9D9F005F73AA /* SmartWearUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 724382A41F9F9D9F005F73AA /* Build configuration list for PBXNativeTarget "SmartWearUITests" */;
+			buildPhases = (
+				724382911F9F9D9F005F73AA /* Sources */,
+				724382921F9F9D9F005F73AA /* Frameworks */,
+				724382931F9F9D9F005F73AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				724382971F9F9D9F005F73AA /* PBXTargetDependency */,
+			);
+			name = SmartWearUITests;
+			productName = SmartWearUITests;
+			productReference = 724382951F9F9D9F005F73AA /* SmartWearUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7243826B1F9F9D9F005F73AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Serik;
+				TargetAttributes = {
+					724382721F9F9D9F005F73AA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 68FKBNMHEE;
+						ProvisioningStyle = Automatic;
+					};
+					724382891F9F9D9F005F73AA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 68FKBNMHEE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 724382721F9F9D9F005F73AA;
+					};
+					724382941F9F9D9F005F73AA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 68FKBNMHEE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 724382721F9F9D9F005F73AA;
+					};
+				};
+			};
+			buildConfigurationList = 7243826E1F9F9D9F005F73AA /* Build configuration list for PBXProject "SmartWear" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7243826A1F9F9D9F005F73AA;
+			productRefGroup = 724382741F9F9D9F005F73AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				724382721F9F9D9F005F73AA /* SmartWear */,
+				724382891F9F9D9F005F73AA /* SmartWearTests */,
+				724382941F9F9D9F005F73AA /* SmartWearUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		724382711F9F9D9F005F73AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724382841F9F9D9F005F73AA /* LaunchScreen.storyboard in Resources */,
+				724382811F9F9D9F005F73AA /* Assets.xcassets in Resources */,
+				7243827C1F9F9D9F005F73AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724382881F9F9D9F005F73AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724382931F9F9D9F005F73AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7243826F1F9F9D9F005F73AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7243827F1F9F9D9F005F73AA /* SmartWear.xcdatamodeld in Sources */,
+				724382791F9F9D9F005F73AA /* ViewController.swift in Sources */,
+				724382771F9F9D9F005F73AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724382861F9F9D9F005F73AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7243828F1F9F9D9F005F73AA /* SmartWearTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724382911F9F9D9F005F73AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7243829A1F9F9D9F005F73AA /* SmartWearUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7243828C1F9F9D9F005F73AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 724382721F9F9D9F005F73AA /* SmartWear */;
+			targetProxy = 7243828B1F9F9D9F005F73AA /* PBXContainerItemProxy */;
+		};
+		724382971F9F9D9F005F73AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 724382721F9F9D9F005F73AA /* SmartWear */;
+			targetProxy = 724382961F9F9D9F005F73AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7243827A1F9F9D9F005F73AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7243827B1F9F9D9F005F73AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		724382821F9F9D9F005F73AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				724382831F9F9D9F005F73AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7243829C1F9F9D9F005F73AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7243829D1F9F9D9F005F73AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7243829F1F9F9D9F005F73AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 68FKBNMHEE;
+				INFOPLIST_FILE = SmartWear/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Asfagio.SmartWear;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		724382A01F9F9D9F005F73AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 68FKBNMHEE;
+				INFOPLIST_FILE = SmartWear/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Asfagio.SmartWear;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		724382A21F9F9D9F005F73AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 68FKBNMHEE;
+				INFOPLIST_FILE = SmartWearTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Asfagio.SmartWearTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartWear.app/SmartWear";
+			};
+			name = Debug;
+		};
+		724382A31F9F9D9F005F73AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 68FKBNMHEE;
+				INFOPLIST_FILE = SmartWearTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Asfagio.SmartWearTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartWear.app/SmartWear";
+			};
+			name = Release;
+		};
+		724382A51F9F9D9F005F73AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 68FKBNMHEE;
+				INFOPLIST_FILE = SmartWearUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Asfagio.SmartWearUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SmartWear;
+			};
+			name = Debug;
+		};
+		724382A61F9F9D9F005F73AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 68FKBNMHEE;
+				INFOPLIST_FILE = SmartWearUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Asfagio.SmartWearUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SmartWear;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7243826E1F9F9D9F005F73AA /* Build configuration list for PBXProject "SmartWear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7243829C1F9F9D9F005F73AA /* Debug */,
+				7243829D1F9F9D9F005F73AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7243829E1F9F9D9F005F73AA /* Build configuration list for PBXNativeTarget "SmartWear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7243829F1F9F9D9F005F73AA /* Debug */,
+				724382A01F9F9D9F005F73AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		724382A11F9F9D9F005F73AA /* Build configuration list for PBXNativeTarget "SmartWearTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				724382A21F9F9D9F005F73AA /* Debug */,
+				724382A31F9F9D9F005F73AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		724382A41F9F9D9F005F73AA /* Build configuration list for PBXNativeTarget "SmartWearUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				724382A51F9F9D9F005F73AA /* Debug */,
+				724382A61F9F9D9F005F73AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7243827D1F9F9D9F005F73AA /* SmartWear.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7243827E1F9F9D9F005F73AA /* SmartWear.xcdatamodel */,
+			);
+			currentVersion = 7243827E1F9F9D9F005F73AA /* SmartWear.xcdatamodel */;
+			path = SmartWear.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7243826B1F9F9D9F005F73AA /* Project object */;
+}
